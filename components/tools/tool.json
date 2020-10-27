@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_tools_tools",
+  "info": {
+    "name": "tool",
+    "icon": "tools"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

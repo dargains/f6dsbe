@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "project",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "client": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "user": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "tools": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tools.tool"
+    }
+  }
+}
