@@ -1,5 +1,6 @@
 module.exports = ({ env }) => ({
-  host: env('HOST', '0.0.0.0'),
+  host: env('HOST', 'https://strapidargains.azurewebsites.net'),
+  // host: env('HOST', '13.69.68.0'),
   port: env.int('PORT', 1337),
   admin: {
     auth: {
